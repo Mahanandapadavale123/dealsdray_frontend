@@ -1,0 +1,64 @@
+.form-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border: 1px solid black; 
+  padding: 20px;
+  background-color: white;
+  width: 400px; /* Card width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.formGroup input,  .formGroup select, .formGroup .inlineGroup{
+  text-align: left;
+}
+
+.label {
+  margin-right: 10px;
+  width: 35%;
+  text-align: left;
+}
+
+.input {
+  width: 60%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.inlineGroup {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.breadcrump{
+  color: #000000;
+  background: #eae12a8c;
+  padding: 2px 17px;
+}
+.breadcrump span{
+  font-size: 13px;;
+}
